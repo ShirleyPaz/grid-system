@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Imagem */
+.row__image {
+    background-color: lightgray;
+    height: 200px;
+}
+
+/* Título */
+.row__title {
+    background-color: gray;
+    height: 30px;
+}
+
+/* Paragrafo */
+.row__paragraph {
+    background-color: lightgray;
+    height: 170px;
+}
+
+/* Container */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Linhas */
+.row {
+    position: relative;
+}
+
+/* Colunas */
+.col-mb-1 {
+    width: calc((100%/5) * 1);
+}
+.col-mb-2 {
+    width: calc((100%/5) * 2);
+}
+.col-mb-3 {
+    width: calc((100%/5) * 3);
+}
+.col-mb-4 {
+    width: calc((100%/5) * 4);
+}
+.col-mb-5 {
+    width: calc((100%/5) * 5);
+}
+
+@media(min-width: 768px) {
+    .col-tb-1 {
+        width: calc((100%/9) * 1);
+    }
+    .col-tb-2 {
+        width: calc((100%/9) * 2);
+    }
+    .col-tb-3 {
+        width: calc((100%/9) * 3);
+    }
+    .col-tb-4 {
+        width: calc((100%/9) * 4);
+    }
+    .col-tb-5 {
+        width: calc((100%/9) * 5);
+    }
+    .col-tb-6 {
+        width: calc((100%/9) * 6);
+    }
+    .col-tb-7 {
+        width: calc((100%/9) * 7);
+    }
+    .col-tb-8 {
+        width: calc((100%/9) * 8);
+    }
+    .col-tb-9 {
+        width: calc((100%/9) * 9);
+    }
+}
+
+@media(min-width: 992px) {
+    .col-dk-1 {
+        width: calc((100%/12) * 1);
+    }
+    .col-dk-2 {
+        width: calc((100%/12) * 2);
+    }
+    .col-dk-3 {
+        width: calc((100%/12) * 3);
+    }
+    .col-dk-4 {
+        width: calc((100%/12) * 4);
+    }
+    .col-dk-5 {
+        width: calc((100%/12) * 5);
+    }
+    .col-dk-6 {
+        width: calc((100%/12) * 6);
+    }
+    .col-dk-7 {
+        width: calc((100%/12) * 7);
+    }
+    .col-dk-8 {
+        width: calc((100%/12) * 8);
+    }
+    .col-dk-9 {
+        width: calc((100%/12) * 9);
+    }
+    .col-dk-10 {
+        width: calc((100%/12) * 10);
+    }
+    .col-dk-11 {
+        width: calc((100%/12) * 11;
+    }
+    .col-dk-12 {
+        width: calc((100%/12) * 12;
+    }
+}
