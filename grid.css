@@ -32,6 +32,11 @@
 .row {
     position: relative;
 }
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 /* Colunas */
 .col-mb-1 {
